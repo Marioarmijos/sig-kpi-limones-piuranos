@@ -1,0 +1,6 @@
+{
+  "name": "SIG KPI — Limones Piuranos",
+  "description": "Sistema de Monitoreo de Indicadores de Gestión ISO 9001:2015 & BASC para Limones Piuranos S.A.C.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
