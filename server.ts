@@ -26,7 +26,7 @@ import {
   ComplianceStatus
 } from './src/types/sig.ts';
 
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 const DB_FILE = path.resolve(process.cwd(), 'data_sig_kpi.json');
 
 // Memory cache of application state
