@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: sig-kpi-limones-piuranos
+    env: node
+    buildCommand: npm install --legacy-peer-deps && npm run build
+    startCommand: npm start
+    plan: free
