@@ -12,8 +12,12 @@ export default defineConfig(() => {
       },
     },
     server: {
+      allowedHosts: ['sig-kpi-limones-piuranos.onrender.com'],
       hmr: process.env.DISABLE_HMR !== 'true',
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
+    },
+    preview: {
+      allowedHosts: ['sig-kpi-limones-piuranos.onrender.com'],
     },
   };
 });
